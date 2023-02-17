@@ -1,8 +1,9 @@
 ---
 tags: Teresa s.w. Friends
+title: Matplotlib 圖表繪製
 ---
 
-Matplotlib
+Matplotlib 圖表繪製
 ===
 
 § 圖片構造
