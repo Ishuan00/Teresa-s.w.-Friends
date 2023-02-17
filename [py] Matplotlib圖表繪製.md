@@ -101,7 +101,7 @@ https://matplotlib.org/stable/tutorials/colors/colors.html
 
 § 調整圖表字體格式
 --
-```python=1
+```Python
 from matplotlib import pyplot as plt
 
 # define font-dictionary
