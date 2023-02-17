@@ -23,8 +23,8 @@ plt.show()
 > * figure 指的是畫布，當我們要畫圖時，必須先創建一個畫布，才能在上面加上各種元素。
 
 | :information_source:   **Pyplot Tutorial** |
+|:---------------------------|
 | https://matplotlib.org/stable/tutorials/introductory/pyplot.html |
-|-----------------------------------------|
 
 
 ### `axes` : 由軸(axes)構成的框格 ; we need to draw a graph inside axes. 
@@ -73,10 +73,11 @@ ax = fig.add_axes([0,0,1,1])
 > * ```fig.add_axes(rect)``` : rect 是一個 list 物件，包含四個數字，依序為 ```[ x0 , y0 , width , height ]```；其中 ( x0 , y0 ) 是所新增 axes 的原點(左下角)==位置==，width、height 分別為此 axes 的寬、高==長度==。
 > * ==**這裡的位置和長度，皆是以所在 figure 的寬、高位置之比例來表示，是0~1的值**==。
 
-:::info
-**靈活增添 Axes 並設定位置**
-https://stackoverflow.com/questions/43326680/what-are-the-differences-between-add-axes-and-add-subplot
-:::
+
+| :information_source:   **靈活增添 Axes 並設定位置**|
+|:---------------------------|
+| https://stackoverflow.com/questions/43326680/what-are-the-differences-between-add-axes-and-add-subplot |
+
 </br>
 
 § 調整畫布大小
@@ -91,12 +92,14 @@ https://stackoverflow.com/questions/43326680/what-are-the-differences-between-ad
     * 需在一開始宣告變數時設定，在後面才設`plt.figure(facecolor='slategrey')`會沒有效果。
 * 調整 axes 背景顏色 : `ax.set_facecolor('#363636')`
 
-:::info
-**Python 顏色命名表**
-https://matplotlib.org/stable/gallery/color/named_colors.html
-**Python 自定義顏色**
-https://matplotlib.org/stable/tutorials/colors/colors.html
-:::
+
+| :information_source:   **Python 顏色命名表**|
+|:---------------------------|
+| https://matplotlib.org/stable/gallery/color/named_colors.html |
+| :information_source:   **Python 自定義顏色**|
+|:---------------------------|
+| https://matplotlib.org/stable/tutorials/colors/colors.html |
+
 </br>
 
 § 調整圖表字體格式
@@ -137,14 +140,16 @@ fig.tight_layout()
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/arIT9Yv.png)
 
-:::info
-**Font-dictionary**
-https://matplotlib.org/stable/tutorials/text/text_props.html
-**Axes.grid 調整網格格式**
-https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.grid.html
-**Legend**
-https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_with_legend.html
-:::
+| :information_source:   **Font-dictionary** |
+|:---------------------------|
+| https://matplotlib.org/stable/tutorials/text/text_props.html |
+| :information_source:   **Axes.grid 調整網格格式** |
+|:---------------------------|
+| https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.grid.html |
+| :information_source:   **Legend** | 
+|:---------------------------|
+| https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_with_legend.html |
+
 </br>
 
 § 應用範例: Scatter-hist Plot
@@ -213,10 +218,10 @@ fig.tight_layout()
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/JzWg4MV.png)
 
 
-:::info
-**Scatter plot with histograms**
-https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_hist.html#sphx-glr-gallery-lines-bars-and-markers-scatter-hist-py
-:::
+| :information_source:   **Scatter plot with histograms** | 
+|:---------------------------|
+| [https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_with_legend.html](https://matplotlib.org/stable/gallery/lines_bars_and_markers/scatter_hist.html#sphx-glr-gallery-lines-bars-and-markers-scatter-hist-py) |
+
 </br>
 
 
