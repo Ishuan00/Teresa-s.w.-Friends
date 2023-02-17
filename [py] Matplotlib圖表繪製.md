@@ -48,7 +48,8 @@ ax[1] = ...
 > * 繪製圖表時，我們不能直接畫在 paper 上，而是需要先架構一個或多個 cell。
 > * 如果只畫一個圖表，可直接用 plt.plot() 進行繪製，Python 會自動將 axes 嵌在 figure 內。
 > * 圖表上的所有元素，如: x-axis、y-axis、...label、...等，皆屬於 axes 內的範疇。
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/mjPVkmO.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/mjPVkmO.png)
 
 </br>
 
