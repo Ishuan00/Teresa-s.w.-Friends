@@ -8,7 +8,7 @@ Matplotlib
 § 圖片構造
 --
 <!-- width x height -->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/GlsUggG.png =300x)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/GlsUggG.png)
 [參考網址-1](https://chwang12341.medium.com/%E7%A8%8B%E5%BC%8F%E8%A7%80%E5%BF%B5-%E5%A4%A7%E5%AE%B6%E9%83%BD%E6%9C%83%E4%BD%BF%E7%94%A8plt%E7%95%AB%E5%9C%96-%E4%BD%86%E6%98%AF%E4%BD%A0%E7%9C%9F%E7%9A%84%E7%9F%A5%E9%81%93plt-ax-fig%E6%98%AF%E4%BB%80%E9%BA%BC%E5%97%8E-%E6%80%8E%E9%BA%BC%E7%94%A8-6f0bc6404f8f)
 [參考網址-2](https://towardsdatascience.com/what-are-the-plt-and-ax-in-matplotlib-exactly-d2cf4bf164a9)
 </br>
@@ -48,7 +48,7 @@ ax[1] = ...
 > * 繪製圖表時，我們不能直接畫在 paper 上，而是需要先架構一個或多個 cell。
 > * 如果只畫一個圖表，可直接用 plt.plot() 進行繪製，Python 會自動將 axes 嵌在 figure 內。
 > * 圖表上的所有元素，如: x-axis、y-axis、...label、...等，皆屬於 axes 內的範疇。
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/mjPVkmO.png =480x)
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/mjPVkmO.png)
 
 </br>
 
