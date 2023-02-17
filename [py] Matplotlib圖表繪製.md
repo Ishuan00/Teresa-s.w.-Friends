@@ -22,10 +22,9 @@ plt.show()
 ```
 > * figure 指的是畫布，當我們要畫圖時，必須先創建一個畫布，才能在上面加上各種元素。
 
-:::info
-**Pyplot Tutorial**
+! **Pyplot Tutorial**
 https://matplotlib.org/stable/tutorials/introductory/pyplot.html
-:::
+
 
 ### `axes` : 由軸(axes)構成的框格 ; we need to draw a graph inside axes. 
 ```
