@@ -28,7 +28,6 @@ plt.show()
 |:---------------------------|
 | https://matplotlib.org/stable/tutorials/introductory/pyplot.html |
 
-</br>
 
 ### `axes` : 由軸(axes)構成的框格 ; we need to draw a graph inside axes. 
 ```
@@ -52,7 +51,7 @@ ax[1] = ...
 > * 如果只畫一個圖表，可直接用 plt.plot() 進行繪製，Python 會自動將 axes 嵌在 figure 內。
 > * 圖表上的所有元素，如: x-axis、y-axis、...label、...等，皆屬於 axes 內的範疇。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/mjPVkmO.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/mjPVkmO.png | width=600px)
 
 </br>
 
@@ -164,7 +163,7 @@ fig.tight_layout()
 
 § 應用範例: Scatter-hist Plot
 ---
-```python=1
+```Python
 ### Scatter Plot with Histograms
 from matplotlib import pyplot as plt
 
