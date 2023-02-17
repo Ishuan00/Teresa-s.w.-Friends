@@ -134,7 +134,7 @@ ax.set_title('Patient\'s Age Distribution', pad=10, fontdict=title_font)
 # layout adjustment (使用這個，上面宣告的 figsize=(10,4) 才會顯示正確比例)
 fig.tight_layout()
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/arIT9Yv.png =600x)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://i.imgur.com/arIT9Yv.png)
 
 :::info
 **Font-dictionary**
